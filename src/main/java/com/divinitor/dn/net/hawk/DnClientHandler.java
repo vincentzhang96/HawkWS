@@ -71,7 +71,7 @@ public class DnClientHandler implements Runnable {
                 }
 
                 int wrappedLength = dis.readInt();
-                LOGGER.info(String.format("Read %s packet payload %,d bytes", type.toString(), wrappedLength));
+                LOGGER.debug(String.format("Read %s packet payload %,d bytes", type.toString(), wrappedLength));
                 byte[] buf = new byte[wrappedLength];
                 dis.readFully(buf);
 
