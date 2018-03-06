@@ -2,7 +2,7 @@
 
 This is a basic Divinitor Hawk to Websocket server implemented in Java.
 
-The server listens for Hawk connections on port 14300 and the websocket port server on 14301.
+The server listens for Hawk connections on port 14300 and the websocket server on 14301.
 
 # Building and Running
 
